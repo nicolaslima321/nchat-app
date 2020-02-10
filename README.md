@@ -1,6 +1,6 @@
 # NChat (nchat)
 
-Application developed with JavaScript and QuasarJS
+It is intended to make a graphical and mechanical interface of operation similar to WhatsApp.
 
 ## Install the dependencies
 ```bash

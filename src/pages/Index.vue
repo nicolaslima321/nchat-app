@@ -1,11 +1,23 @@
 <template>
   <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
+    <chat-box messages="lorem" user="test"/>
   </q-page>
 </template>
 
 <script>
+import ChatBox from '../components/ChatBox.vue'
+
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+
+  components: {
+    'chat-box': ChatBox
+  },
+
+  data () {
+    return {
+      lorem: ['hey, how are you?']
+    }
+  }
 }
 </script>
