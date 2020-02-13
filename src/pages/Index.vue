@@ -11,6 +11,7 @@
 
 <script>
 import ChatBox from '../components/ChatBox.vue'
+var io = require('socket.io-client')
 
 export default {
   name: 'PageIndex',
@@ -35,13 +36,12 @@ export default {
   },
 
   mounted () {
-
+    var socket = io.connect('http://localhost:3333')
+    socket.emit('connection')
   },
 
   methods: {
-    loadMessages () {
 
-    }
   }
 }
 </script>
