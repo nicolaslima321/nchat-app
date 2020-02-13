@@ -1,14 +1,9 @@
 <template>
-  <div class="q-pa-md row justify-center">
-    <div style="width: 100%; max-width: 400px">
-      <q-chat-message
-        name="user"
-        :text="messages"
-        sent
-        v-ripple
-      />
-    </div>
-  </div>
+  <q-chat-message
+    :name="user"
+    :text="messages"
+    :sent="sent"
+  />
 </template>
 
 <script>
@@ -17,7 +12,8 @@ export default {
 
   props: {
     'messages': Array,
-    'user': String
+    'user': String,
+    'sent': Boolean
   }
 }
 </script>
