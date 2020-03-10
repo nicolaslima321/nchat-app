@@ -5,10 +5,11 @@ This project development were just as an entertainment and for a way to study an
 NChat intends to be only a 'replica' of Web WhatsApp, developed from scratch using JavaScript. The stack used on front-end of NChat is Quasar Framework, VueJS and Node.JS. To real-time data confection, was implemented a package Socket.io client-side.
 
 ### Instalation
-Node.JS, NPM and Quasar CLI are required to NChat. To install this project you must run in your terminal or prompt (If you use Windows) the typical: ´npm install´.
+Node.JS, NPM and Quasar CLI are required to NChat. To install this project you must run in your terminal or prompt (If you use Windows) the typical: `npm install`.
 
-### Execution
-To start NChat you must type ´npm start´ if everything goes rigth, the server will be listen in your port 3333, you can access and refer to it at url http://localhost:3333. At this point, the server will be able to listen to the messages sent by the clients at NChat (Client Side).
+### Execution/Run
+Thanks to Quasar, you have many ways to do that :)
+Hereafter will have some modes possibles, but generally, running `quasar dev` will run the project as an SPA, and it will be listen in your port 8080, you can access and refer to it at url http://localhost:8080. At this point, the client will be able to sent messages to the Back-end (NChat Server Side).
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 Generally
