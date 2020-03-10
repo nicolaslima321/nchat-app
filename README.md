@@ -1,7 +1,7 @@
 # NChat (Client/Front-end)
 
 ### Overview
-This project development were just as an entertainment and for a way to study and practice.
+This project were developed just as entertainment and for an way to study and practice.
 NChat intends to be only a 'replica' of Web WhatsApp, developed from scratch using JavaScript. The stack used on front-end of NChat is Quasar Framework, VueJS and Node.JS. To real-time data confection, was implemented a package Socket.io client-side.
 
 ### Instalation
