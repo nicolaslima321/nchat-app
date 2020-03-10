@@ -9,6 +9,7 @@ Node.JS, NPM and Quasar CLI are required to NChat. To install this project you m
 
 ### Execution/Run
 Thanks to Quasar, you have many ways to do that :)
+
 Hereafter will have some modes possibles, but generally, running `quasar dev` will run the project as an SPA, and it will be listen in your port 8080, you can access and refer to it at url http://localhost:8080. At this point, the client will be able to sent messages to the Back-end (NChat Server Side).
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
